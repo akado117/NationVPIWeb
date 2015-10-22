@@ -1,0 +1,32 @@
+<div class="fill">
+			<div class="header text-center vert-ctr-object">
+				<div>
+					<h1 class="vert-ctr-obj">Password Vault</h1>
+				</div>
+			</div>
+			<div class="bodies input-large">
+				<form class="col-xs-12 ">
+					<h3>Website/Application Name</h3>
+					<input type="text" ng-model="addCntrl.appName"/>
+					<h3>User ID</h3>
+					<input type="text" ng-model="addCntrl.userId"/>
+					<h3>Password</h3>
+					<input type="text" ng-model="addCntrl.password">
+					<h3>Confirm Password</h3>
+					<input type="text" ng-model="addCntrl.confPass"/>
+				
+					<h4 ng-show="errorMessageEnable">{{errorMessage}}</h4>
+					
+				</form>
+			</div>
+			<div class="footer">
+				<div class="container vert-ctr-obj">
+					<div class="row">
+						<input type="button" class="btn" value="Delete" ng-click="addCntrl.open()"
+							style="color: black"></input> <input type="button"
+							class="btn btn-primary pull-right" ng-click="addCntrl.cancel()" value="Cancel" ></input> <input
+							type="button" class="btn btn-primary pull-right" value="Save" ng-click="addCntrl.save()"></input>
+					</div>
+				</div>
+			</div>
+		</div>

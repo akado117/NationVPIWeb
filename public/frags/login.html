@@ -1,0 +1,26 @@
+<div 
+	ng-controller="LoginController as logCntrl">
+	<form name="loginForm" ng-submit="login(credentials)">
+		<div class="vert-spacer"></div>
+		<div
+			class="container col-sm-4 col-sm-offset-4 col-xs-10 col-xs-offset-1 vert-ctr">
+			<div class="col-xs-12">
+				<h1 class="text-center ">Password</h1>
+				<h1 class="text-center">Vault</h1>
+			</div>
+			<div class="center ">
+				<input ng-model="credentials.userName" type="text"
+					placeholder="Enter User Name" class="center">
+			</div>
+			</br>
+			<div class="center">
+				<input ng-model="credentials.password" type="password"
+					placeholder="Enter Access Code">
+			</div>
+			<div class="center">
+				<input type="submit" value="Submit"
+					class="btn btn-primary pull-right top-buffer"></input>
+			</div>
+		</div>
+	</form>
+</div>

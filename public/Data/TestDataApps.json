@@ -1,0 +1,31 @@
+{"Zoom9" : {
+		"appId": 9,
+		"userId": "bobby",
+		"appName": "Zoom",
+		"password": "Password1"
+	},
+	"Google1" :{
+		"appId": 1,
+		"userId": "bobby",
+		"appName": "Google",
+		"password": "XYZ123"
+	},
+	"Grit2" :	{
+		"appId": 2,
+		"userId": "bobby",
+		"appName": "Grit",
+		"password": "somePass"
+	},
+	"Nit4" :	{
+		"appId": 2,
+		"userId": "bobby",
+		"appName": "Nit",
+		"password": "somePass"
+	},
+	"Alpha2" :	{
+		"appId": 5,
+		"userId": "bobby",
+		"appName": "Alpha",
+		"password": "somePass"
+	}
+}

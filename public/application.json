@@ -1,0 +1,17 @@
+{
+   "application": {
+      "events": [
+      ],
+      "initialViews": [
+      ],
+      "login": {
+         "enable": false
+      }
+   },
+   "data": [
+   ],
+   "events": [
+   ],
+   "views": [
+   ]
+}

@@ -1,0 +1,26 @@
+
+<div class="fill">
+	<div class="header text-center vert-ctr-object">
+		<div>
+			<h1 class="vert-ctr-obj">Password Vault</h1>
+		</div>
+	</div>
+	<div class="bodies input-large">
+		<div class="col-xs-12 autofill">
+		<h2 ng-show="listCntrl.listErrorMessage">List could not be retrieved</h2>
+			<div ng-repeat=" (key,app) in listCntrl.appServ.apps ">
+				{{listCntrl.checkForListLetter(app.appName.charAt(0))}}
+				<h2 ng-if="listCntrl.isNewLetter">{{app.appName.charAt(0)}}</h2>
+				<h3><a ng-click="listCntrl.info(key)">{{app.appName}}</a></h3>				
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container vert-ctr-obj ">
+
+			<input type="button" class="btn btn-primary center-btn" value="add"
+				ng-click="listCntrl.add()"></input>
+
+		</div>
+	</div>
+</div>

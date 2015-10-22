@@ -1,0 +1,691 @@
+/* =================================================================== */
+/* Common */
+/* =================================================================== */
+
+
+.nitrogen.mobile .mblBackground {
+	background-color: #393a3f;
+    color: #333;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+
+.nitrogen.mobile .nitrogenView {
+}
+
+
+.nitrogen.mobile .nitrogenText {
+	color: #ffffff;	
+	outline: none;
+}
+
+.nitrogen.mobile .nitrogenText,
+.nitrogen.mobile .nitrogenPullDownMsg {
+	color: #ffffff;
+	text-shadow: 0 0 0 transparent;	
+}
+
+
+
+
+/* --------------------------- heading ------------------------------- */
+
+.nitrogen.mobile .nitrogenHeading {
+	background: #212d33;
+	color: #fff;
+	text-shadow: 0 0 0;
+	font-weight: lighter;
+	padding: 5px 0;
+	border-bottom: 1px solid #ba006e;
+}
+
+.nitrogen.mobile .nitrogenHeading .mblHeadingDivTitle,
+.nitrogen.mobile .nitrogenHeading .mblHeadingSpanTitle {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* heading buttons */
+.nitrogen.mobile .nitrogenHeading .nitrogenBackBtn .mblToolBarButtonBody {
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	border: medium none;
+	box-shadow: none;
+	width: auto;
+	color: #ffffff;
+	font-weight: 100;
+}
+
+.nitrogen.mobile .nitrogenHeading .nitrogenBackBtn,
+.nitrogen.mobile .nitrogenHeading .nitrogenBackBtn.mblToolBarButton.mblToolBarButtonHasLeftArrow {
+	outline: none;
+}
+
+.nitrogen.mobile .nitrogenHeading .nitrogenBackBtn .mblToolBarButtonArrow {
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	border-color: #ffffff;
+	border-width: 0 0 4px 4px;
+	height: 13px;
+	width: 13px;
+}
+
+.nitrogen.mobile .mblHeading .mblToolBarButtonBody {
+	border-width: 0px;
+	border-style: solid;
+	border-color: transparent;
+	-webkit-box-shadow: 0 0 0 transparent;
+	box-shadow: 0 0 0 transparent;
+}
+
+.nitrogen.mobile .mblHeading .mblToolBarButtonBody.nitrogenDirectionsBtn {
+	border-width: 1px;
+	border-style: outset;
+	border-color: #555;
+	-webkit-box-shadow: 0 0 0 transparent;
+	box-shadow: 0 0 0 transparent;
+}
+
+.nitrogen.mobile .mblHeading .mblToolBarButtonBody.nitrogenDirectionsBtn.mblToolBarButtonBodySelected {
+	border-style: inset;
+}
+
+
+
+
+/* --------------------------- General ------------------------------- */
+
+.nitrogen.mobile .mblRoundRect {}
+
+.nitrogen.mobile .nitrogenPhotoViewImg {
+	max-width: 96%;
+	margin: 2% auto;
+}
+
+.nitrogen.mobile .nitrogenContainerLoading {
+	color: #ffffff;
+}
+
+
+/* --------------------------- Lists ------------------------------- */
+
+.nitrogen.mobile .mblRoundRectList {
+	border: none;
+	border-radius: 0;
+	background: transparent;
+}
+
+
+/* List header */
+.nitrogen.mobile .nitrogenListHeader {
+	margin: 0;
+	background-color: #616669;
+}
+
+.nitrogen.mobile .nitrogenListHeaderText {
+	padding: 8px;	
+	color: #ffffff;
+	text-shadow: 0 0 0 transparent;	
+}
+
+
+/* List item */
+.nitrogen.mobile .mblListItem {
+	border-top: 1px solid #b8babe;
+	background: #393a3f;
+	font-weight: normal;
+}
+
+.nitrogen.mobile .mblListItem:first-child {
+	border-top: 0 none;
+	border-radius: 0;
+}
+
+.mblRoundRectList .mblListItem:last-child,
+.mblRoundRectList .mblEdgeToEdgeCategory:last-child {
+	border-radius: 0;
+}
+
+.nitrogen.mobile .mblListItemLabel {
+	font-weight: normal;
+	color: #fff;
+}
+
+.nitrogen.mobile .mblListItemSelected {
+	background-color: #212d33;
+	color: #333;
+}
+
+.nitrogen.mobile .nitrogenListItemField .nitrogenListItemText,
+.nitrogen.mobile .nitrogenListItemField .nitrogenListItemRightText,
+.nitrogen.mobile .nitrogenTableField .nitrogenListItemRightText {
+	color: #FFCC99;
+}
+
+
+/* List item arrow */
+.nitrogen.mobile .mblDomButtonGrayArrow > div, 
+.nitrogen.mobile .mblDomButtonArrow > div {
+	border-width: 3px 3px 0 0;
+	width: 6px;
+	height: 6px;
+	border-color: #6f7076;
+}
+
+.nitrogen.mobile .mblDomButtonBlueCircleArrow > div {
+	-webkit-box-shadow: 0 0 0 transparent;
+	box-shadow: 0 0 0 transparent;
+	
+}
+
+.nitrogen.mobile .mblDomButtonBlueCircleArrow > div > div {
+	background: #616669;
+}
+
+
+
+
+/* --------------------------- Forms ------------------------------- */
+
+.nitrogen.mobile .nitrogenTextBoxInput {}
+
+.nitrogen.mobile .mblDomButtonDarkBlueCheck > div, 
+.nitrogen.mobile .mblDomButtonCheck > div {
+	border-color: #FFCC99;
+}
+
+.nitrogen.mobile .mblListItemSelected .mblDomButton div {
+	border-color: #FFCC99;
+}
+
+/* Select Wheel */
+.nitrogen.mobile .mblSpinWheelSlot {
+	border-left: solid 2px #aaa;
+	border-right: solid 2px #aaa;
+}
+
+.nitrogen.mobile .nitrogen.mobile .mblSpinWheelSlotContainer {}
+
+.nitrogen.mobile .mblSpinWheelSlotPanel {}
+
+.nitrogen.mobile .mblSpinWheelSlotLabel {
+	font: normal 24px/44px Helvetica, sans-serif;
+}
+
+
+
+
+/* --------------------------- Navigation (Buttons) ------------------------------- */
+
+.nitrogen.mobile .nitrogenNavigationBtn.mblListItem {
+	border-top: auto;
+	border-bottom: auto;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #616669;
+	border-radius: 8px;
+	margin-bottom: 4px;
+}
+
+.nitrogen.mobile .nitrogenNavigationBtn.mblListItem:first-child {
+	border-top: auto;
+	border-radius: 8px;
+}
+
+.nitrogen.mobile .nitrogenNavigationBtn.mblListItem.mblListItemSelected {
+	background-image: none;
+	border-top: auto;
+	border-bottom: auto;
+	border: none;
+	color: #ffffff;
+	background-color: #9da3ab;
+}
+
+.nitrogen.mobile .nitrogenNavigationBtn.mblListItem .mblListItemLabel{
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+/* button arrow */
+.nitrogen.mobile .nitrogenNavigationBtn .mblListItemRightIcon .mblDomButtonGrayArrow > div {
+	border-color: #6f7076;
+}
+
+.nitrogen.mobile .nitrogenNavigationBtn .mblListItemRightIcon .mblDomButtonArrow > div {
+	border-width: 3px 3px 0 0;
+	width: 6px;
+	height: 6px;
+	border-color: #ffffff;
+}
+
+
+
+
+/* --------------------------- Action (Buttons) ------------------------------- */
+ 
+.nitrogen.mobile .nitrogenActionBtn.mblListItem {
+	border-top: auto;
+	border-bottom: auto;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #616669;
+	border-radius: 8px;
+	margin-bottom: 8px;
+}
+
+.nitrogen.mobile .nitrogenActionBtn.mblListItem.mblListItemSelected {
+	background-image: none;
+	border-top: auto;
+	border-bottom: auto;
+	border: none;
+	color: #ffffff;
+	background-color: #606b75;
+}
+
+.nitrogen.mobile .nitrogenActionBtn.mblListItem .mblListItemLabel {}
+
+
+
+
+/* --------------------------- Customized Action (Buttons) ------------------------------- */
+
+/*
+* 1. Add a style for a custom button here
+* 2. DSrag and drop a button from the palette
+* 3. Add class="customBtn1" to the button in the view.html file
+* 4. Override for IOS and Android below
+*/
+
+.nitrogen.mobile .nitrogenActionBtn.customBtn1 {}
+
+.nitrogen.mobile .nitrogenActionBtn.customBtn2 {}
+
+
+/* Example: action button "Carpool OK Button" */ 
+.nitrogen.mobile .nitrogenBtn.carpoolGreenButton.mblListItem {
+	background: #66a2c4;
+	text-align: center;
+	font-weight: Normal;
+}
+
+.nitrogen.mobile .nitrogenBtn.carpoolGreenButton.mblListItem .mblListItemLabel{
+	font-weight: Normal;
+}
+
+.nitrogen.mobile .nitrogenBtn.carpoolGreenButton.mblListItem.mblListItemSelected {
+	background-color: #507193;
+}
+
+.nitrogen.mobile .nitrogenBtn.carpoolGreenButton .mblListItemRightIcon {
+	display: none;
+}
+
+
+
+
+
+/* --------------------------- Table ------------------------------- */
+.nitrogen.mobile .nitrogenListHeader.nitrogenTableHeader .nitrogenTableAction {}
+.nitrogen.mobile .nitrogenListHeader.nitrogenTableHeader .nitrogenTableAction.nitrogenTableAddAction,
+.nitrogen.mobile .nitrogenListHeader.nitrogenTableHeader .nitrogenTableAction.nitrogenTableEditAction,
+.nitrogen.mobile .nitrogenListHeader.nitrogenTableHeader .nitrogenTableAction.nitrogenTableDoneAction {
+	background-color: transparent;
+	border: none;
+	margin-top: 8px;
+	color: #fff;
+}
+
+
+.nitrogen.mobile .mblDomButtonRedButton {
+	background: #C94055;
+	border: none;
+	font-weight: normal;
+}
+
+
+/* Table item remove */
+.nitrogen.mobile .nitrogenTableRow .mblListItemDeleteIcon .mblDomButtonRedCircleMinus > div {
+	-webkit-box-shadow: 0 0 0 transparent;
+	box-shadow: 0 0 0 transparent;
+}
+.nitrogen.mobile .nitrogenTableRow .mblListItemDeleteIcon .mblDomButtonRedCircleMinus > div > div {
+	background: #c9404b;
+	background-color: #c9404b;
+}
+
+
+
+
+/* --------------------------- login ------------------------------- */
+
+.nitrogen.mobile .nitrogenLoginViewIdPassContainer {
+	padding: 4px;
+	background: #7d8487;
+	border: none;
+}
+
+
+/* ID + Password */
+.nitrogen.mobile .nitrogenLoginViewIdPassContainer .nitrogenTextBoxInput.mblTextBox {
+	color: #fff;
+	padding: 4px;
+	min-height: 30px;
+}
+
+.nitrogen.mobile .nitrogenLoginViewIdPassContainer table tr td {
+	padding: 4px;
+	background: transparent;
+	color: #fff;
+}
+
+
+/* Login Buttons */
+.nitrogen.mobile .nitrogenBtn.mblListItem.nitrogenSignInBtn {
+	background: #477189;
+	color: #ffffff;
+}
+
+.nitrogen.mobile .nitrogenBtn.mblListItem.nitrogenSignCancelBtn {
+	background: #4e5153;
+	color: #ffffff;
+	font-weight: lighter;
+}
+
+.nitrogen.mobile .nitrogenBtn.mblListItem.nitrogenSignCancelBtn .mblListItemLabel {
+	font-weight: 100;
+}
+
+
+/* Error Messages */
+.nitrogen.mobile .nitrogenLoginViewError {
+	text-align: center;
+}
+
+
+
+
+/* --------------------------- Map ------------------------------- */
+
+.nitrogen.mobile .mblToolBarButtonBody {
+	background: transparent;
+	border: none;
+	box-shadow: 0 0 0 transparent;
+	
+}
+
+
+
+
+/* =================================================================== */
+/* IOS */
+/* =================================================================== */
+
+.nitrogen.mobile.ios_theme body{
+    font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+
+.nitrogen.mobile.ios_theme .nitrogenText,
+.nitrogen.mobile.ios_theme .nitrogenPullDownMsg {
+	color: #ffffff;
+	text-shadow: 0 0 0 transparent;	
+}
+
+
+.nitrogen.mobile.ios_theme .nitrogenListItemField .nitrogenListItemText,
+.nitrogen.mobile.ios_theme .nitrogenListItemFieldRtl .nitrogenListItemText,
+.nitrogen.mobile.ios_theme .nitrogenTableFieldRtl .nitrogenListItemText,
+.nitrogen.mobile.ios_theme .nitrogenTableField .nitrogenListItemText {
+	color: #FFCC99;
+}
+
+
+
+/* List header */
+.nitrogen.mobile.ios_theme .nitrogenListHeader {
+	margin: 0;
+	background-color: #616669;
+}
+
+.nitrogen.mobile.ios_theme .nitrogenListHeaderText {
+	padding: 8px;
+	font-weight: normal;
+}
+
+
+/* Customized Action (Buttons) */
+.nitrogen.mobile.ios_theme .nitrogenActionBtn.customBtn1 {}
+
+.nitrogen.mobile.ios_theme .nitrogenActionBtn.customBtn2 {}
+
+
+
+
+/* =================================================================== */
+/* Android */
+/* =================================================================== */
+.nitrogen.mobile.android_theme .nitrogenLoginViewIdPassContainer {
+	color: black;
+}
+
+.nitrogen.mobile.android_theme body{
+    font-family: Roboto, Droid Sans, Arial, sans-serif;
+}
+
+.nitrogen.mobile.android_theme .nitrogenText,
+.nitrogen.mobile.android_theme .nitrogenPullDownMsg {
+	color: #ffffff;
+	text-shadow: 0 0 0 transparent;	
+}
+
+.nitrogen.mobile.android_theme .nitrogenTextBoxInput {
+	color: #a7a7a7;	
+}
+
+.nitrogen.mobile.android_theme .nitrogenHeading {
+	background: #212d33;
+	color: #fff;
+	text-shadow: 0 0 0;
+	font-weight: lighter;
+	padding: 5px 0;
+	border-bottom: 1px solid #ba006e;
+}
+
+.nitrogen.mobile.android_theme .nitrogenHeading .nitrogenBackBtn .mblToolBarButtonBody {
+	display: inline-block;
+}
+
+.nitrogen.mobile.android_theme .nitrogenHeading .mblHeadingDivTitle,
+.nitrogen.mobile.android_theme .nitrogenHeading .mblHeadingSpanTitle {
+	margin-left: 0px;
+}
+
+.nitrogen.mobile.android_theme .nitrogenContainerMain {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Lists */
+.nitrogen.mobile .mblEdgeToEdgeList {
+	border: none;
+	border-radius: 0;
+	background: transparent;
+	margin: 5px 7px 12px;
+}
+
+.nitrogen.mobile.android_theme .mblListItem {
+	color: #393a3f;
+	font-size: 17px;
+}
+
+.nitrogen.mobile.android_theme .mblListItemLabel {
+	display: inline;
+}
+
+.nitrogen.mobile.android_theme .nitrogenNavigationBtn.mblListItem .mblListItemLabel,
+.nitrogen.mobile.android_theme .nitrogenActionBtn.mblListItem .mblListItemLabel,
+.nitrogen.mobile.android_theme .nitrogenDialogButton.mblListItem .mblListItemLabel {
+	color: #fff;
+}
+
+.nitrogen.mobile.android_theme .nitrogenNavigationBtn.mblListItem {
+	background-color: #616669;
+}
+
+.nitrogen.mobile.android_theme .nitrogenActionBtn.mblListItem {
+	background-color: #616669;
+	border-top: none;
+}
+
+/* List header */
+.nitrogen.mobile.android_theme .nitrogenListHeader {
+	margin: 0;
+	background-color: #616669;
+}
+
+.nitrogen.mobile.android_theme .nitrogenListHeaderText {
+	padding: 8px;	
+	color: #ffffff;
+	text-shadow: 0 0 0 transparent;	
+}
+
+.nitrogen.mobile.android_theme .mblEdgeToEdgeCategory {
+	height: auto;
+	border-bottom-width: 3px;
+}
+
+.nitrogen.mobile.android_theme .nitrogenListItemField .nitrogenListItemText,
+.nitrogen.mobile.android_theme .nitrogenListItemFieldRtl .nitrogenListItemText,
+.nitrogen.mobile.android_theme .nitrogenTableFieldRtl .nitrogenListItemText,
+.nitrogen.mobile.android_theme .nitrogenTableField .nitrogenListItemText {
+	color: #FFCC99;
+}
+
+.nitrogen.mobile.android_theme .nitrogenNavigationBtn .mblDomButtonArrow {
+	display: block;
+	margin-top: -5px;
+}
+
+.nitrogen.mobile.android_theme .nitrogenListItemField .mblDomButtonArrow,
+.nitrogen.mobile.android_theme .nitrogenTableRow .mblDomButtonArrow {
+	display: block;
+}
+
+
+/* --------------- Customized Action (Buttons) --------------- */
+.nitrogen.mobile.android_theme .nitrogenActionBtn.customBtn1 {}
+
+.nitrogen.mobile.android_theme .nitrogenActionBtn.customBtn2 {}
+
+/* Example: action button "Carpool OK Button" */ 
+.nitrogen.mobile.android_theme .nitrogenBtn.carpoolGreenButton.mblListItem {
+	background: #66a2c4;
+	text-align: center;
+	font-weight: Normal;
+}
+
+.nitrogen.mobile.android_theme .nitrogenBtn.carpoolGreenButton.mblListItem .mblListItemLabel{
+	font-weight: Normal;
+}
+
+.nitrogen.mobile.android_theme .nitrogenBtn.carpoolGreenButton.mblListItem.mblListItemSelected {
+	background-color: #507193;
+}
+
+.nitrogen.mobile.android_theme .nitrogenBtn.carpoolGreenButton .mblListItemRightIcon {
+	display: none;
+}
+
+.nitrogen.mobile.android_theme .mblDomButtonBlueCircleArrow {
+	display: block;
+}
+
+.nitrogen.mobile.android_theme .nitrogenHeading .nitrogenBackBtn .mblToolBarButtonArrow {
+	left: 1px;
+	top: 5px;
+}
+
+.nitrogen.mobile.android_theme .nitrogenListHeader {
+	text-transform: none;
+	font-weight: normal;
+}
+
+.nitrogen.mobile.android_theme .mblDomButtonCheckBox1 {
+	border: none;
+}
+
+.nitrogen.mobile.android_theme .mblDomButtonCheckBox1 > div {
+	border-color: #FF9966;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialogButtonsContainer {
+	border-top: none;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialogButtonsContainer .nitrogenDialogButton {
+	background-color: #616669;
+	border-left-width: 0px;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialog {
+	background-color: #393A3F;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialog .nitrogenDialogTitle {
+	color: #FF9966;
+	border-bottom: 3px solid #FF9966;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialog .nitrogenEditor .mblListItem {
+	background-color: #393A3F;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialog .nitrogenEnumEditor .mblDomButtonRadio1 {
+	background-color: #393A3F;
+	border: 1px solid white;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialog .nitrogenEnumEditor .mblDomButtonRadio0 {
+	border: 1px solid white;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialog .nitrogenEnumEditor .mblDomButtonRadio1 > div {
+	background-color: #FF9966;
+}
+
+.nitrogen.mobile.android_theme .nitrogenDialog .nitrogenDialogContainer .nitrogenTextAreaInput {
+	color: white;
+}
+
+.nitrogen.mobile.android_theme .nitrogenLocationEditor .nitrogenToolbarRightBtn,
+.nitrogen.mobile.android_theme .nitrogenAddressEditor .nitrogenToolbarRightBtn {
+	background-color: transparent;
+}
+
+.nitrogen.mobile.android_theme .mblHeading .mblToolBarButtonBody.nitrogenDirectionsBtn {
+	background-color: transparent;
+}
+
+html.nitrogen.mobile.android_theme .mblHeadingCenterTitle .mblHeadingDivTitle{
+    display: block;
+}
+
+html.nitrogen.mobile.android_theme .mblHeadingCenterTitle .mblHeadingSpanTitle{
+    display: none;
+}
+
+html.nitrogen.mobile.android_theme .nitrogenHeading,
+html.nitrogen.mobile.android_theme .nitrogenHeadingRtl{
+    text-align: center;
+}
+
+html.nitrogen.mobile.android_theme .nitrogenHeading .mblHeadingSpanTitle{
+    margin-left: 0;
+}
+
+html.nitrogen.mobile.android_theme .nitrogenHeadingRtl .mblHeadingSpanTitle{
+    margin-right: 0;
+}
